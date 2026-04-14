@@ -7,10 +7,10 @@ cd task-manager-app
 uv syn 
 ```
 
-# Runnig and Testing App
+# Runnig and Testing App on CLI
 ```sh
 # 1. Create a Parent Task
-uv run task-manager-ap create "Develop Login API" --desc "Backend authentication logic"
+uv run task-manager-app create "Develop Login API" --desc "Backend authentication logic"
 
 # 2. Create a Child Task (Replace <ID> with the ID from above)
 uv run task-manager-app create "Write JWT Logic" --parent <ID>
