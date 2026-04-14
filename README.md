@@ -2,6 +2,10 @@
 - [Intall Python 3.10 >= for your OS](https://www.python.org/downloads/)
 - [Instal uv for your OS](https://docs.astral.sh/uv/getting-started/installation/)
 - Run `uv syn` in the project directory on your terminal to install the necessary packages
+```sh
+cd task-manager-app
+uv syn 
+```
 
 # Runnig and Testing App
 ```sh
