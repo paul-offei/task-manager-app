@@ -42,3 +42,8 @@ uv run task-manager-app undo
 uv run task-manager-app tree
 ```
 
+# User AI Interaction Link
+- Decision to use Google Gemina was because of I having Pro Account for unlimited interaction
+- [Refine my starting prompt with ChatGPT](https://chatgpt.com/share/69de3671-37f8-8325-9d82-8e3660b41eaf)
+- [Used the Refine Prompt to start develoment iteration](https://gemini.google.com/share/a55572e352b1)
+
