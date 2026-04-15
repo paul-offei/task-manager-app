@@ -1,6 +1,7 @@
 # How to get APP Started 
 - [Intall Python 3.10 >= for your OS](https://www.python.org/downloads/)
-- [Instal uv for your OS](https://docs.astral.sh/uv/getting-started/installation/)
+- [Install uv for your OS](https://docs.astral.sh/uv/getting-started/installation/)
+- [Install SQLite3 for your OS](https://sqlite.org/index.html)
 - Run `uv syn` in the project directory on your terminal to install the necessary packages
 ```sh
 cd task-manager-app
@@ -9,6 +10,9 @@ uv syn
 
 # Runnig and Testing App on CLI
 ```sh
+# 0. See Command Line Help
+uv run task-manager-app --help
+
 # 1. Create a Parent Task
 uv run task-manager-app create "Develop Login API" --desc "Backend authentication logic"
 
@@ -26,7 +30,7 @@ uv run task-manager-app tree
 
 6. Real Time updating a child doesn't break the parent's UI state
 # Update a child status
-uv run task-traveler update <CHILD_ID> --status in_progress
+uv run task-manager-app update <CHILD_ID> --status in_progress
 
 # View the tree again
 uv run task-manager-app tree
