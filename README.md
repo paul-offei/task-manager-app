@@ -50,8 +50,67 @@ uv run task-manager-app undo
 uv run task-manager-app tree
 ```
 
-# User AI Interaction Link
+# User AI Interaction and Video Demo Link
 - Decision to use Google Gemina was because of I having Pro Account for unlimited interaction
 - [Refine my starting prompt with ChatGPT](https://chatgpt.com/share/69de3671-37f8-8325-9d82-8e3660b41eaf)
 - [Used the Refine Prompt to start develoment iteration](https://gemini.google.com/share/a55572e352b1)
+- [Demo Video](https://drive.google.com/file/d/1DVx0pMYLPvPuEDKkQel3F11Fn11xvrQf/view?usp=sharing)
+
+
+
+# Video DemoExamples of Task
+## Home Organization
+1. Create a Parent Task
+   
+uv run task-manager-app create "Clean the Kitchen" --desc "Deep clean all kitchen surfaces and appliances for the week."
+
+1. Create a Child Task
+
+uv run task-manager-app create "Empty the dishwasher" --parent
+
+uv run task-manager-app create "Scrub the sink" --parent
+
+uv run task-manager-app create "Wipe down countertops" --parent 
+
+## Professional Projects
+1. Create a Parent Task
+   
+uv run task-manager-app create "Prepare Monthly Report" --desc "Compile and analyze departmental 
+performance metrics for stakeholders."
+
+1. Create a Child Task
+   
+uv run task-manager-app create "Gather data from sales" --parent
+
+uv run task-manager-app create "Create visual charts" --parent
+
+uv run task-manager-app create "Write the executive summary" --parent 
+
+## Personal Wellness
+
+1. Create a Parent Task
+   
+uv run task-manager-app create "Start a Fitness Routine" --desc "Establish a consistent physical activity schedule to improve health."
+
+1. Create a Child Task
+   
+uv run task-manager-app create "Buy new running shoes" --parent
+
+uv run task-manager-app create "Join a local gym" --parent
+
+uv run task-manager-app create "Schedule three workouts weekly" --parent 
+
+## Software Development
+1. Create a Parent Task
+   
+uv run task-manager-app create "Develop Login API" --desc "Backend authentication logic"
+
+1. Create another Child
+   
+uv run task-manager-app create "Setup Redis Cache" --parent 
+
+uv run task-manager-app create "Write JWT Logic" --parent 
+
+uv run task-manager-app create "Write UI Interface" --parent 
+
 
